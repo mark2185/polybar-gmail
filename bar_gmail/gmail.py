@@ -90,7 +90,7 @@ class Gmail():
 
     def get_unread_messages_count(self, label: str = 'INBOX'):
         labels = self.gmail.users().labels().get(userId='me', id=label).execute()
-        return labels['messagesUnread']
+        return labels['threadsUnread']
 
     # TODO: Save refreshed credentials.
     def refresh_credentials(self) -> bool:
