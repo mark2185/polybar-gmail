@@ -1,3 +1,5 @@
+#!/home/mark/.config/polybar/modules/v/bin/python
+
 import sys
 import argparse
 from pathlib import Path

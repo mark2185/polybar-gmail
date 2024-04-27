@@ -1,3 +1,5 @@
+#!/home/mark/.config/polybar/modules/v/bin/python
+
 from pathlib import Path
 from google.oauth2.credentials import Credentials
 from googleapiclient import discovery

@@ -1,3 +1,5 @@
+#!/home/mark/.config/polybar/modules/v/bin/python
+
 import os
 import json
 import time
